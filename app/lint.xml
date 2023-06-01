@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable the given check in this project -->
+    <!--    <issue id="IconMissingDensityFolder" severity="ignore" />-->
+
+    <!-- Ignore the ObsoleteLayoutParam issue in the specified files -->
+    <!--    <issue id="ObsoleteLayoutParam">-->
+    <!--        <ignore path="res/layout/activation.xml" />-->
+    <!--        <ignore path="res/layout-xlarge/activation.xml" />-->
+    <!--    </issue>-->
+
+    <!--    &lt;!&ndash; Ignore the UselessLeaf issue in the specified file &ndash;&gt;-->
+    <!--    <issue id="UselessLeaf">-->
+    <!--        <ignore path="res/layout/main.xml" />-->
+    <!--    </issue>-->
+
+    <!-- Change the severity of hardcoded strings to "error" -->
+    <issue id="HardcodedText" severity="ignore" />
+<!--    <issue id="GradleDependency" severity="fatal"/>-->
+    <issue id="UnusedResources" severity="ignore"/>
+    <issue id="ContentDescription" severity="ignore"/>
+    <issue id="RelativeOverlap" severity="ignore"/>
+    <issue id="SetTextI18n" severity="ignore"/>
+    <issue id="IconLocation" severity="ignore"/>
+
+</lint>
