@@ -11,7 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:background="@color/grey"
+        android:background="@color/a"
         android:padding="10dp"
         android:layout_height="wrap_content">
 
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:button="@drawable/ic_favorit_foreground" />
+                android:button="@drawable/ic_delete_foreground" />
 
 <!--            <CheckBox-->
 <!--                android:id="@+id/etCheck"-->

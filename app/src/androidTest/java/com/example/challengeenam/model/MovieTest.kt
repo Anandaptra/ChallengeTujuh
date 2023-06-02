@@ -27,7 +27,7 @@ class MovieTest {
     }
 
     @Test
-    fun testDetailMovieTop() {
+    fun testMovie() {
         // Persiapan data yang diperlukan untuk pengujian
         val id = 1
         val imagepath = "path/to/image"

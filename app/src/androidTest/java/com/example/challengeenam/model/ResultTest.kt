@@ -40,7 +40,7 @@ class ResultTest {
     }
 
     @Test
-    fun testResultProperties() {
+    fun testResult() {
         // Persiapan data yang diperlukan untuk pengujian
 
         // Verifikasi nilai-nilai properti dalam kelas Result

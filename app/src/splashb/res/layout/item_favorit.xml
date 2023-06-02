@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_favorit_moview"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgMovie"
+            android:layout_width="86dp"
+            android:layout_height="83dp"
+            android:layout_margin="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/movie" />
+
+        <LinearLayout
+            android:layout_width="283dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@id/imgMovie"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/etJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Judul" />
+
+            <TextView
+                android:id="@+id/etTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                tools:text="Tanggal" />
+
+            <CheckBox
+                android:id="@+id/etCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/ic_delete_foreground" />
+
+<!--            <CheckBox-->
+<!--                android:id="@+id/etCheck"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_gravity="right"-->
+<!--                android:button="@drawable/ic_fav_foreground" />-->
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

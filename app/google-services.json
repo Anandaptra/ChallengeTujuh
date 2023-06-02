@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1080708234218:android:a980173e4c46deff499093",
         "android_client_info": {
-          "package_name": "com.example.challengeenam"
+          "package_name": "com.example.challengeenam.splashb"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "1080708234218-2dabglsvl8p12pfso4vs9jfvuh2nh9pg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.challengeenam",
+            "package_name": "com.example.challengeenam.splashb",
             "certificate_hash": "167aefaa5fcd2857475cf77910d6f93d1d70496a"
           }
         },
